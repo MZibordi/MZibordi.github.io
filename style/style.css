@@ -2,6 +2,9 @@ body,html{
 	scroll-behavior:smooth;
 	padding:0;margin:0;
 }
+
+
+
 html{
 	font-family:spotify-circular,Helvetica,Arial,sans-serif;
 }
@@ -38,7 +41,7 @@ data-styled.g6[id="9t"]{
 	--background-unsafe-for-small-text-base:#B49BC8;
 	--background-unsafe-for-small-text-highlight:#C0ABD1;
 	--background-unsafe-for-small-text-press:#CDBCDA;
-	--text-base:#000000;
+	--text-base:#ffffff;
 	--text-subdued:#000000;
 	--text-bright-accent:#000000;
 	--text-negative:#000000;
