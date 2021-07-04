@@ -5,7 +5,12 @@ body,html{
 		background-color:#503750;
 }
 
+.imgfundo{
 
+    background-image: url("style/imgcentro.png");
+
+    background-position: left
+}
 
 html{
 	font-family:spotify-circular,Helvetica,Arial,sans-serif;
