@@ -5,11 +5,9 @@ body,html{
 		background-color:#503750;
 }
 
-.imgfundo{
+.imgcentro{
 
-    background-image: url("style/imgcentro.png");
-
-    background-position: left
+    display: inline-block;
 }
 
 html{
