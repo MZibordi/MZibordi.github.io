@@ -6,6 +6,16 @@ body,html{
 }
 
 
+.pepino{
+align-items: center
+display: inline-block;
+}
+
+
+.batata{
+display: inline-block;
+align-items: center
+}
 
 html{
 	font-family:spotify-circular,Helvetica,Arial,sans-serif;
