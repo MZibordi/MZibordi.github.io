@@ -1,0 +1,127 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="icon" type="image/png" href="img/favicon.png" sizes="16x16"/>
+		<title>Escutar muda tudo - Spotify (BR)</title>
+		<link rel=stylesheet type="text/css" href="style/style.css">
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+	<body>
+		<div id="spoti-root">
+      		<div>
+			<header role="banner" class="mh-header-hover mh-default-z-index svelte-1irxfym">
+					<a class="mh-skip-link svelte-1irxfym" href="#">Pular para o conteúdo</a>
+					<div class="mh-container svelte-1irxfym">
+							<img src="style/logo.png" style="padding-top: 14px; padding-bottom: 14px;">
+						<div class="mh-brand-wrapper svelte-1irxfym">
+  							<a href="#" class="mh-header-primary svelte-18o1xvt" data-tracking="{&#34;category&#34;: &#34;menu&#34;, &#34;action&#34;: &#34;spotify-logo&#34;}">
+							</a>
+						</div>
+						<nav role="navigation" class="mh-desktop svelte-4ldyho" aria-label="Desktop navigation">
+							<ul class="svelte-4ldyho">
+								<li class="svelte-vf0pv9">
+									<a href="#" class="mh-header-primary  svelte-vf0pv9" data-ga-category="menu" data-ga-action="premium">Premium
+									</a>
+								</li>
+								<li class="svelte-vf0pv9">
+									<a href="" class="mh-header-primary  svelte-vf0pv9" data-ga-category="menu" data-ga-action="help">Suporte
+									</a>
+								</li>
+								<li class="svelte-vf0pv9">
+									<a href="" class="mh-header-primary  svelte-vf0pv9" data-ga-category="menu" data-ga-action="download" data-gtm-event-name="download_spotify_button_clicked" data-tracking="{&#34;category&#34;: &#34;download&#34;, &#34;action&#34;: &#34;download start&#34;, &#34;label&#34;: &#34;download-navbar&#34;}">Baixar
+									</a>
+								</li>
+								<li role="separator" class="mh-header-primary svelte-1i2hclv"></li>
+								<li class="svelte-vf0pv9">
+									<a href="" class="mh-header-secondary mh-tier-2 svelte-vf0pv9" data-ga-category="menu" data-ga-action="sign-up">Inscrever-se
+									</a>
+								</li>
+								<li class="svelte-vf0pv9">
+									<a href="" class="mh-header-secondary mh-tier-2 svelte-vf0pv9" data-ga-category="menu" data-ga-action="log-in" data-tracking="{&#34;category&#34;: &#34;menu&#34;, &#34;action&#34;: &#34;log-in&#34;}">Entrar
+									</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="mh-mobile-menu svelte-4ldyho"></div>
+					</div>
+				</header>
+			</div>
+
+
+
+
+			<div class="loginn" >
+
+
+				<div class="container">
+					<div class="container-login">
+						<div class="wrap-login">
+							<form class="login-form">
+								<span class="login-form-title">
+									Faça o login
+								</span>
+
+								<div class="wrap-input margin-top-35 margin-bottom-35">
+									<input class="input-form" type="text" name="email" autocomplete="off">
+									<span class="focus-input-form" data-placeholder="E-mail"></span>
+								</div>
+
+								<div class="wrap-input margin-bottom-35">
+									<input class="input-form" type="password" name="password">
+									<span class="focus-input-form" data-placeholder="Senha"></span>
+								</div>
+
+								<div class="container-login-form-btn">
+									<button class="login-form-btn">
+										Login
+									</button>
+								</div>
+
+								<ul class="login-utils">
+									<li class="margin-bottom-8 margin-top-8">
+										<span class="text1">
+											Esqueceu sua
+										</span>
+
+										<a href="#" class="text2">
+											senha?
+										</a>
+									</li>
+
+									<li>
+										<span class="text1">
+											Não tem conta?
+										</span>
+
+										<a href="#" class="text2">
+											Criar
+										</a>
+									</li>
+								</ul>
+							</form>
+						</div>
+
+					</div>
+				</div>
+
+				<script>
+					let inputs = document.getElementsByClassName('input-form');
+					for (let input of inputs) {
+						input.addEventListener("blur", function() {
+							if(input.value.trim() != ""){
+								input.classList.add("has-val");
+							} else {
+								input.classList.remove("has-val");
+							}
+						});
+					}
+				</script>
+
+
+
+
+		</div>
+	</body>
+</html>
